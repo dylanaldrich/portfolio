@@ -8,7 +8,7 @@ const LandingPage = () => {
     return (
         <div>
             {/* Header */}
-            <header className="jumbotron d-flex align-items-end mb-0">
+            <header className="jumbotron d-flex align-items-end my-0">
                 <div className="header-text mx-auto text-white mt-3">
                     <h1 className="display-4 font-weight-bold">Dylan Aldrich</h1>
                     <p className="lead font-weight-bold">Software Engineer</p>
@@ -18,8 +18,8 @@ const LandingPage = () => {
             {/* About Section */}
             <section id="about" className="d-flex justify-content-around">
                 <div className="container row text-white text-left">
-                    <div className="d-flex align-items-center">
-                        <img src={cv_photo} alt="dylan aldrich" className="mr-4"/>
+                    <div id="about-content" className="d-flex align-items-center">
+                        <img src={cv_photo} alt="dylan aldrich"/>
                         <div>
                             <h2 className="text-uppercase font-weight-bold">About</h2>
                             <p className="lead">

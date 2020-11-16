@@ -2,3 +2,32 @@
     font-size: 23px;
     margin: 0 10px;
 }
+
+@media only screen and (max-width: 991px) {
+    nav {
+        height: 0;
+        margin: 0 auto;
+    }
+
+    .navbar {
+        padding: 0;
+    }
+    
+    .navbar-toggler {
+        background-color: white;
+        margin-top: 55px;
+        margin-left: 25px;
+        position: absolute;
+        z-index: 10;
+    }
+
+    .navbar-collapse {
+        text-align: left;
+    }
+
+    ul {
+        position: absolute;
+        background-color: rgba(245, 245, 245, 0.7);
+        padding-top: 50px;
+    }
+}

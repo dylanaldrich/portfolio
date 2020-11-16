@@ -59,10 +59,28 @@
 }
 
 img {
-  height: calc(250px + 2vmin);
+  max-height: 250px;
+  margin-right: 20px
 }
 
 #about {
-  height: 300px;
+  min-height: 300px;
   background-color: rgb(54,127,190);
+}
+
+@media only screen and (max-width: 767px) {
+  #about-content {
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  #about-content img {
+    max-height: 170px;
+    margin: 15px auto 10px;
+  }
+
+  #about-content h2, p {
+    text-align: center;
+  }
 }
