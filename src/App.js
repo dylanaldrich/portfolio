@@ -1,3 +1,5 @@
+import ScrollUpButton from 'react-scroll-up-button';
+
 import NavBar from './components/NavBar/NavBar';
 import LandingPage from './pages/LandingPage';
 
@@ -8,6 +10,7 @@ function App() {
     <div className="App">
       <NavBar />
       <LandingPage />
+      <ScrollUpButton />
     </div>
   );
 }

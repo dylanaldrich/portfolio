@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+  margin: 0 auto;
+  padding: 0;
+}
 
 .App {
   text-align: center;
@@ -48,4 +52,17 @@
   height: 500px;
   text-shadow: 1px 1px 4px #000000;
   border-radius: 0;
+}
+
+.jumbotron h1 {
+  font-size: calc(50px + 2vmin);
+}
+
+img {
+  height: calc(250px + 2vmin);
+}
+
+#about {
+  height: 300px;
+  background-color: rgb(54,127,190);
 }
