@@ -6,6 +6,11 @@
 
 body {
   width: 100%;
+  background-image: url('../src/assets/images/costarica.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .App {
@@ -49,10 +54,7 @@ body {
 }
 
 .jumbotron {
-  background-image: url('../src/assets/images/costarica.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  background-color: transparent;
   height: 500px;
   text-shadow: 1px 1px 4px #000000;
   border-radius: 0;
@@ -60,6 +62,11 @@ body {
 
 .jumbotron h1 {
   font-size: calc(50px + 2vmin);
+}
+
+.section-title {
+  text-shadow: 1px 1px 4px #000000;
+  font-size: 35px;
 }
 
 img {
@@ -129,6 +136,19 @@ i {
   border-radius: 0;
 }
 
+.btn:hover {
+  color: goldenrod;
+}
+
+#envelope {
+  font-size: 25px;
+}
+
+#email {
+  float: left;
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 768px) {
   .jumbotron {
     height: auto;
@@ -171,5 +191,10 @@ i {
   .btn {
     margin: 0 5px;
     font-size: larger;
+  }
+
+  #email {
+    float: none;
+    justify-content: center;
   }
 }

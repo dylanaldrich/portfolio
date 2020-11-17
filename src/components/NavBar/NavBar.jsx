@@ -21,9 +21,6 @@ const NavBar = () => {
                         <a className="nav-link" href="#">Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Contact</a>
-                    </li>
-                    <li className="nav-item">
                         <a className="nav-link" href={resume} target="_blank">Resume</a>
                     </li>
                 </ul>
