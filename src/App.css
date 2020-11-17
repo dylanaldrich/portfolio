@@ -55,7 +55,7 @@ body {
 
 .jumbotron {
   background-color: transparent;
-  height: 500px;
+  height: 400px;
   text-shadow: 1px 1px 4px #000000;
   border-radius: 0;
 }
@@ -99,6 +99,10 @@ img {
 
 #song-quiz-section {
   background-color: #253340;
+}
+
+#skills-section {
+  background-color: #367FBE;
 }
 
 i {

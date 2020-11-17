@@ -8,7 +8,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg">
             {/* navbar-light bg-light */}
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars"></i>
+                <i className="fas fa-bars"></i>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">

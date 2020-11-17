@@ -137,7 +137,7 @@ const LandingPage = () => {
                 </div>
 
                 {/* Song Quiz Section */}
-                <div className="project-container d-flex align-items-center text-white mb-5" id="song-quiz-section">
+                <div className="project-container d-flex align-items-center text-white mb-2" id="song-quiz-section">
                     <div className="project container d-flex align-items-center">
                         <a href="https://pages.git.generalassemb.ly/dylanaldrich/dylans-song-quiz/" target="_blank" rel="noreferrer">
                             <img className="shadow project-img" src="https://i.ibb.co/rv6KtcK/songquiz-home.png" alt="song quiz" />
@@ -165,6 +165,13 @@ const LandingPage = () => {
                 </div>
             </section>
 
+            {/* Skills Section */}
+            <section id="skills">
+                <h2 className="font-weight-bold my-4 text-white section-title">SKILLS</h2>
+                <div className="project-container d-flex align-items-center text-white mb-5" id="skills-section">
+                    Skills go here
+                </div>
+            </section>
 
             {/* Footer */}
             <footer className="footer mt-auto">
