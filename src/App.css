@@ -67,10 +67,12 @@ body {
 
 .section-title {
   text-shadow: 1px 1px 4px #000000;
+  letter-spacing: 2px;
   font-size: 35px;
 }
 
 img {
+  height: 280px;
   margin-right: 30px
 }
 
