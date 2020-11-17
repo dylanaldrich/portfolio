@@ -33,21 +33,23 @@ const LandingPage = () => {
             {/* Projects Section */}
             <section id="projects">
                 <h2 className="font-weight-bold my-4">PROJECTS</h2>
-                <div className="project d-flex align-items-center text-white" id="foodbook-section">
-                    <div className="container d-flex align-items-center">
+
+                {/* foodbook Section */}
+                <div className="project-container d-flex align-items-center text-white" id="foodbook-section">
+                    <div className="project container d-flex align-items-center">
                         <a href="https://foodbook-recipeapp.herokuapp.com/" target="_blank">
                             <img className="shadow project-img" src="https://i.ibb.co/R9yRF0D/foodbook-home.png" alt="foodbook image" />
                         </a>
-                        <div className="text-left">
+                        <div className="text-left my-3">
                             <h2 className="font-weight-bold project-title">
                                 <a href="https://foodbook-recipeapp.herokuapp.com/" className="project-link" target="_blank">foodbook</a>
                             </h2>
-                            <p className="project-description">
-                                <span id="foodbook-tag" className="font-weight-bold">foodbook</span> is a chef's best friend! My app allows you to search through Edamam's database of millions of recipes, and then save your favorite recipes into as many of your own personalized "foodbooks" as you want. Once the recipes are stored, you can easily look into your foodbooks and find the right recipe for the right occasion.
+                            <p className="project-description mb-3">
+                                A chef's best friend! My app allows you to search through Edamam's database of millions of recipes, and then save your favorite recipes into as many of your own personalized "foodbooks" as you want. Once the recipes are stored, you can easily look into your foodbooks and find the right recipe for the right occasion.
                             </p>
-                            <p className="my-1">
-                                <a href="https://github.com/dylanaldrich/foodbook_client" target="_blank" className="project-link">GitHub </a>
-                                <a href="https://foodbook-recipeapp.herokuapp.com/" target="_blank" className="project-link">Deployed App</a>
+                            <p className="mb-3 h5 font-weight-bold">
+                                <a href="https://foodbook-recipeapp.herokuapp.com/" target="_blank" className="btn btn-light">View</a>
+                                <a href="https://github.com/dylanaldrich/foodbook_client" target="_blank" className="btn btn-light">GitHub</a>
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
@@ -60,7 +62,67 @@ const LandingPage = () => {
                                 <i class="devicon-bootstrap-plain"></i>
                             </div>
                         </div>
+                    </div>
+                </div>
 
+                {/* Wayfarer Section */}
+                <div className="project-container d-flex align-items-center text-white" id="wayfarer-section">
+                    <div className="project container d-flex align-items-center">
+                        <a href="https://wayfarer-bld.herokuapp.com/" target="_blank">
+                            <img className="shadow project-img" src="https://i.ibb.co/YhYyhkP/wayfarer-home.png" alt="wayfarer image" />
+                        </a>
+                        <div className="text-left my-3">
+                            <h2 className="font-weight-bold project-title">
+                                <a href="https://wayfarer-bld.herokuapp.com/" className="project-link" target="_blank">Wayfarer</a>
+                            </h2>
+                            <p className="project-description mb-3">
+                                Put on your traveling shoes and check out this colorful travel blog, where you can share travel tips and stories about your favorite places around the globe! You can also interact with other users, read and comment on their posts.
+                            </p>
+                            <p className="mb-3 h5 font-weight-bold">
+                                <a href="https://wayfarer-bld.herokuapp.com/" target="_blank" className="btn btn-light">View</a>
+                                <a href="https://github.com/dylanaldrich/wayfarer_travel_app" target="_blank" className="btn btn-light">GitHub</a>
+                            </p>
+                            <p className="mb-2 font-weight-bold">Technologies used:</p>
+                            <div className="logo-container d-flex justify-content-between project-tech-logos">
+                                <i class="devicon-python-plain"></i>
+                                <i class="devicon-django-plain"></i>
+                                <i class="devicon-postgresql-plain"></i>
+                                <i class="devicon-html5-plain-wordmark"></i>
+                                <i class="devicon-css3-plain-wordmark"></i>
+                                <i class="devicon-bootstrap-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Toolodex Section */}
+                <div className="project-container d-flex align-items-center text-white" id="toolodex-section">
+                    <div className="project container d-flex align-items-center">
+                        <a href="https://tool-odex.herokuapp.com/login" target="_blank">
+                            <img className="shadow project-img" src="https://i.ibb.co/61zWSxv/toolodex-home.png" alt="toolodex image" />
+                        </a>
+                        <div className="text-left my-3">
+                            <h2 className="font-weight-bold project-title">
+                                <a href="https://tool-odex.herokuapp.com/login" className="project-link" target="_blank">Toolodex</a>
+                            </h2>
+                            <p className="project-description mb-3">
+                                A retro-themed productivity application that helps you to save and keep track of your favorite online tools, resources and documentation. Think of it like your browser's bookmarks feature, but with a lot of added functionality! Perfect for developers, teachers, or anyone who likes to keep their go-to sites organized.
+                            </p>
+                            <p className="mb-3 h5 font-weight-bold">
+                                <a href="https://tool-odex.herokuapp.com/login" target="_blank" className="btn btn-light">View</a>
+                                <a href="https://github.com/dylanaldrich/toolodex" target="_blank" className="btn btn-light">GitHub</a>
+                            </p>
+                            <p className="mb-2 font-weight-bold">Technologies used:</p>
+                            <div className="logo-container d-flex justify-content-between project-tech-logos">
+                                <i class="devicon-mongodb-plain"></i>
+                                <i class="devicon-express-original"></i>
+                                <i class="devicon-nodejs-plain"></i>
+                                <i class="devicon-jquery-plain"></i>
+                                <i class="devicon-html5-plain-wordmark"></i>
+                                <i class="devicon-css3-plain-wordmark"></i>
+                                <i class="devicon-bootstrap-plain"></i>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

@@ -15,19 +15,25 @@
     
     .navbar-toggler {
         background-color: white;
-        margin-top: 55px;
-        margin-left: 25px;
+        top: 10px;
+        left: 10px;
         position: absolute;
         z-index: 10;
     }
 
     .navbar-collapse {
-        text-align: left;
+        justify-items: left;
     }
 
     ul {
         position: absolute;
         background-color: rgba(245, 245, 245, 0.7);
         padding-top: 50px;
+    }
+
+    li {
+        text-align: left;
+        justify-items: left;
+        justify-content: left;
     }
 }
