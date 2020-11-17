@@ -19,10 +19,10 @@ const NavBar = () => {
                         <a className="nav-link" href="#projects">Projects</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Skills</a>
+                        <a className="nav-link" href="#skills">Skills</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href={resume} target="_blank">Resume</a>
+                        <a className="nav-link" href={resume} target="_blank" rel="noreferrer">Resume</a>
                     </li>
                 </ul>
             </div>

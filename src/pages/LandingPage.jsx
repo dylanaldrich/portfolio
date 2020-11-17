@@ -168,7 +168,7 @@ const LandingPage = () => {
             {/* Skills Section */}
             <section id="skills">
                 <h2 className="font-weight-bold my-4 text-white section-title">SKILLS</h2>
-                <div className="project-container d-flex align-items-center text-white mb-5" id="skills-section">
+                <div className="project-container d-flex align-items-center text-white mb-1" id="skills-section">
                     Skills go here
                 </div>
             </section>
