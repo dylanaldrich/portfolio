@@ -61,7 +61,8 @@ body {
 }
 
 .jumbotron h1 {
-  font-size: calc(50px + 2vmin);
+  font-size: 65px;
+  letter-spacing: 3px;
 }
 
 .section-title {
@@ -162,7 +163,7 @@ i {
 
   #about-content img {
     max-height: 200px;
-    margin: 15px auto 10px;
+    margin: 10px auto;
   }
 
   #about-content h2, p {
@@ -181,7 +182,7 @@ i {
   .project-img {
     max-height: 280px;
     max-width: 90%;
-    margin: 10px auto;
+    margin: 20px auto 0;
   }
 
   .project-tech-logos {

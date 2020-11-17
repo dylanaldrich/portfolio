@@ -10,7 +10,7 @@ const LandingPage = () => {
             {/* Header */}
             <header className="jumbotron d-flex align-items-end my-0">
                 <div className="header-text mx-auto text-white mt-3">
-                    <h1 className="display-4 font-weight-bold">DYLAN ALDRICH</h1>
+                    <h1 className="display-4 font-weight-bold">Dylan Aldrich</h1>
                     <p className="h3 font-weight-bold">Software Engineer</p>
                 </div>
             </header>
