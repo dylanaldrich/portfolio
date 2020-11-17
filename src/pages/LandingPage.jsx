@@ -21,7 +21,7 @@ const LandingPage = () => {
                     <div id="about-content" className="d-flex align-items-center">
                         <img src={cv_photo} alt="dylan aldrich"/>
                         <div>
-                            <h2 className="text-uppercase font-weight-bold">About</h2>
+                            <h2 className="text-uppercase font-weight-bold">About Me</h2>
                             <p className="lead">
                                 I’m a worldly, multilingual software developer with a background in web development, the music industry and education. As a creative problem solver, I am passionate about using technology to bring people closer together, and closer to achieving their dreams. 
                             </p>
@@ -45,7 +45,7 @@ const LandingPage = () => {
                                 <a href="https://foodbook-recipeapp.herokuapp.com/" className="project-link" target="_blank">foodbook</a>
                             </h2>
                             <p className="project-description mb-3">
-                                A chef's best friend! My app allows you to search through Edamam's database of millions of recipes, and then save your favorite recipes into as many of your own personalized "foodbooks" as you want. Once the recipes are stored, you can easily look into your foodbooks and find the right recipe for the right occasion.
+                                A chef's best friend! This app is linked to an external API which allows you to search through a database of millions of recipes from all over the web. You can then save your favorite recipes into as many of your own personalized "foodbooks" as you like. Once the recipes are stored, you can open your foodbooks and easily find the right recipe, for the right occasion.
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
                                 <a href="https://foodbook-recipeapp.herokuapp.com/" target="_blank" className="btn btn-light">View</a>
@@ -57,6 +57,7 @@ const LandingPage = () => {
                                 <i class="devicon-mongodb-plain"></i>
                                 <i class="devicon-express-original"></i>
                                 <i class="devicon-nodejs-plain"></i>
+                                <i class="devicon-javascript-plain"></i>
                                 <i class="devicon-html5-plain-wordmark"></i>
                                 <i class="devicon-css3-plain-wordmark"></i>
                                 <i class="devicon-bootstrap-plain"></i>
@@ -116,11 +117,40 @@ const LandingPage = () => {
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
                                 <i class="devicon-mongodb-plain"></i>
                                 <i class="devicon-express-original"></i>
+                                <i class="devicon-javascript-plain"></i>
                                 <i class="devicon-nodejs-plain"></i>
                                 <i class="devicon-jquery-plain"></i>
                                 <i class="devicon-html5-plain-wordmark"></i>
                                 <i class="devicon-css3-plain-wordmark"></i>
                                 <i class="devicon-bootstrap-plain"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {/* Song Quiz Section */}
+                <div className="project-container d-flex align-items-center text-white" id="song-quiz-section">
+                    <div className="project container d-flex align-items-center">
+                        <a href="https://pages.git.generalassemb.ly/dylanaldrich/dylans-song-quiz/" target="_blank">
+                            <img className="shadow project-img" src="https://i.ibb.co/rv6KtcK/songquiz-home.png" alt="toolodex image" />
+                        </a>
+                        <div className="text-left my-3">
+                            <h2 className="font-weight-bold project-title">
+                                <a href="https://pages.git.generalassemb.ly/dylanaldrich/dylans-song-quiz/" className="project-link" target="_blank">Toolodex</a>
+                            </h2>
+                            <p className="project-description mb-3">
+                                Are you a big music lover? Try your hand at my interactive music trivia game! Listen to clips of famous songs, and try guess the correct title and artist. You have six rounds to rack up as many points as you can. Have fun playing (but beware, it's addictive)!
+                            </p>
+                            <p className="mb-3 h5 font-weight-bold">
+                                <a href="https://pages.git.generalassemb.ly/dylanaldrich/dylans-song-quiz/" target="_blank" className="btn btn-light">View</a>
+                                <a href="https://github.com/dylanaldrich/toolodex" target="_blank" className="btn btn-light">GitHub</a>
+                            </p>
+                            <p className="mb-2 font-weight-bold">Technologies used:</p>
+                            <div className="logo-container d-flex justify-content-between project-tech-logos">
+                                <i class="devicon-javascript-plain"></i>
+                                <i class="devicon-jquery-plain"></i>
+                                <i class="devicon-html5-plain-wordmark"></i>
+                                <i class="devicon-css3-plain-wordmark"></i>
                             </div>
                         </div>
                     </div>
