@@ -199,7 +199,7 @@ i {
 
   .project-img {
     max-height: 280px;
-    width: auto;
+    max-width: 80vw;
     margin: 20px auto 0;
   }
 
@@ -215,6 +215,10 @@ i {
   #email {
     float: none;
     justify-content: center;
+  }
+
+  .skills-grid {
+    max-width: 80%;
   }
 }
 
