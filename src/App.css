@@ -110,8 +110,7 @@ i {
 }
 
 .project-img {
-  max-height: 330px;
-  width: 517.5px;
+  height: 330px;
   transition: linear .2s;
 }
 
@@ -187,6 +186,7 @@ i {
 
   .project-img {
     max-height: 280px;
+    /* height: auto; */
     max-width: 90%;
     margin: 20px auto 0;
   }
@@ -204,4 +204,11 @@ i {
     float: none;
     justify-content: center;
   }
+}
+
+@media only screen and (max-width: 471px) {
+  .project-img {
+    height: auto;
+  }
+
 }
