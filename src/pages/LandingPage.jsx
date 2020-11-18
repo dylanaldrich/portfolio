@@ -1,10 +1,17 @@
 import React from 'react';
 
 import cv_photo from '../assets/images/cv_photo.png';
-
-// import '../App.css';
+import {skillsLogos} from '../variables/consts';
 
 const LandingPage = () => {
+    
+    function generateSkills(array) {
+        return array.map((skill) => {
+            return (<i className={`m-2 ${skill}`} key={array.indexOf(skill)}></i>);
+        });
+    } 
+
+    
     return (
         <div>
             {/* Header */}
@@ -168,8 +175,14 @@ const LandingPage = () => {
             {/* Skills Section */}
             <section id="skills">
                 <h2 className="font-weight-bold my-4 text-white section-title">SKILLS</h2>
-                <div className="project-container d-flex align-items-center text-white mb-1" id="skills-section">
-                    Skills go here
+                <div className="d-flex flex-column align-items-center text-white mb-1 py-3" id="skills-section">
+                    <div className="skills-grid d-flex flex-wrap justify-content-around">
+                    {generateSkills(skillsLogos)}
+                    </div>
+                    <div className="pt-3 d-flex align-items-center">
+                        <h4>Languages:</h4>
+                        <h2 className="h1 ml-2" id="languages">&#127466;&#127480; &#127467;&#127479;</h2>
+                    </div>
                 </div>
             </section>
 

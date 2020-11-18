@@ -109,8 +109,17 @@ i {
   font-size: 40px;
 }
 
+.skills-grid {
+  max-width: 60%;
+}
+
+.skills-grid i {
+  font-size: 70px;
+}
+
 .project-img {
   height: 330px;
+  width: auto;
   transition: linear .2s;
 }
 
@@ -155,6 +164,10 @@ i {
   font-size: 20px;
 }
 
+#languages {
+  line-height: 1;
+}
+
 @media only screen and (max-width: 768px) {
   .jumbotron {
     height: auto;
@@ -186,8 +199,7 @@ i {
 
   .project-img {
     max-height: 280px;
-    /* height: auto; */
-    max-width: 90%;
+    width: auto;
     margin: 20px auto 0;
   }
 
