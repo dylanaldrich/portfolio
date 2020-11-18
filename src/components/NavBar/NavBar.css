@@ -1,17 +1,20 @@
 nav {
-    background-color: rgba(54, 127, 190, 0.7);
+    padding: 0;
+    background-color: whitesmoke;
 }
 
-.nav-link {
-    color: white;
+.nav-link, li {
+    color:rgb(54, 127, 190);
     letter-spacing: 2px;
     font-size: 23px;
     font-weight: bold;
-    margin: 0 10px;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-link:hover {
+.nav-link span:hover {
     color: goldenrod;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 991px) {
@@ -47,7 +50,7 @@ nav {
 
     ul {
         position: absolute;
-        background-color: rgba(54, 127, 190, 0.7);
+        background-color: whitesmoke;
         padding-top: 50px;
     }
 
@@ -55,5 +58,6 @@ nav {
         text-align: left;
         justify-items: left;
         justify-content: left;
+        padding: 5px 0;
     }
 }

@@ -7,7 +7,7 @@ const LandingPage = () => {
     
     function generateSkills(array) {
         return array.map((skill) => {
-            return (<i className={`m-2 ${skill}`} key={array.indexOf(skill)}></i>);
+            return (<i className={`m-2 mb-3 ${skill}`} key={array.indexOf(skill)}></i>);
         });
     } 
 
@@ -60,7 +60,7 @@ const LandingPage = () => {
                                 <a href="https://foodbook-recipeapp.herokuapp.com/" className="project-link" target="_blank" rel="noreferrer">foodbook</a>
                             </h2>
                             <p className="project-description mb-3">
-                                A chef's best friend! This app is linked to an external API which allows you to search through a database of millions of recipes from all over the web. You can then save your favorite recipes into as many of your own personalized "foodbooks" as you like. Once the recipes are stored, you can open your foodbooks and easily find the right recipe, for the right occasion.
+                                A chef's best friend! This multi-server app is linked to an <a href="https://developer.edamam.com/" className="project-link font-weight-bold" target="_blank" rel="noreferrer">external API</a> that allows you to search through a database of millions of recipes, from all over the web. You can then save your favorite recipes into as many of your own personalized "foodbooks" as you like. Once the recipes are stored, you can open your foodbooks and easily find the right recipe, for the right occasion.
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
                                 <a href="https://foodbook-recipeapp.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-light">View</a>
@@ -179,7 +179,7 @@ const LandingPage = () => {
                     <div className="skills-grid d-flex flex-wrap justify-content-around">
                     {generateSkills(skillsLogos)}
                     </div>
-                    <div className="pt-3 d-flex align-items-center">
+                    <div className="pt-2 d-flex align-items-center">
                         <h4>Languages:</h4>
                         <h2 className="h1 ml-2" id="languages">&#127466;&#127480; &#127467;&#127479;</h2>
                     </div>
