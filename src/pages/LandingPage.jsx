@@ -1,4 +1,5 @@
 import React from 'react';
+import ReactTooltip from 'react-tooltip';
 
 import cv_photo from '../assets/images/cv_photo.png';
 import {skillsLogos} from '../variables/consts';
@@ -9,9 +10,8 @@ const LandingPage = () => {
         return array.map((skill) => {
             return (<i className={`m-2 mb-3 ${skill}`} key={array.indexOf(skill)}></i>);
         });
-    } 
+    }
 
-    
     return (
         <div>
             {/* Header */}
@@ -181,7 +181,31 @@ const LandingPage = () => {
                     </div>
                     <div className="pt-2 d-flex align-items-center">
                         <h4>Languages:</h4>
-                        <h2 className="h1 ml-2" id="languages">&#127466;&#127480; &#127467;&#127479;</h2>
+                        <h2 className="h1 ml-2" id="languages">
+                            <span
+                                data-for="main"
+                                data-tip="English"
+                                className="flag mr-2">
+                                    &#127468;&#127463;
+                            </span>
+                            <span 
+                                data-for="main"
+                                data-tip="Español"
+                                className="flag mr-2">
+                                    &#127466;&#127480;
+                            </span>
+                            <span 
+                                data-for="main"
+                                data-tip="Français"
+                                className="flag">
+                                    &#127467;&#127479;
+                            </span>
+                        </h2>
+                        <ReactTooltip
+                            id="main"
+                            type="dark"
+                            effect="float"
+                        />
                     </div>
                 </div>
             </section>

@@ -12,6 +12,7 @@
     "react-scripts": "4.0.0",
     "react-scroll": "^1.8.1",
     "react-scroll-up-button": "^1.6.4",
+    "react-tooltip": "^4.2.10",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
