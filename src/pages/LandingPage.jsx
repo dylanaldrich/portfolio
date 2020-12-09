@@ -30,7 +30,7 @@ const LandingPage = () => {
                         <div>
                             <h2 className="text-uppercase font-weight-bold">About Me</h2>
                             <p className="lead">
-                                I’m a worldly, multilingual software developer with a background in web development, the music industry and education. As a creative problem solver, I am passionate about using technology to bring people closer together, and closer to achieving their dreams. Based in Los Angeles, CA.
+                                I’m a well-traveled, multilingual software developer with a background in web development, the music industry and education. As a creative problem solver, I am passionate about using technology to bring people closer together, and closer to achieving their dreams. Based in Los Angeles, CA. <span>&#127987;&#65039;&#8205;&#127752;</span>
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
                                 <a href="https://www.linkedin.com/in/dylanaldrich/" target="_blank" rel="noreferrer" className="btn btn-light">LinkedIn</a>
