@@ -154,7 +154,7 @@ const LandingPage = () => {
                                 <a href="https://pages.git.generalassemb.ly/dylanaldrich/dylans-song-quiz/" className="project-link" target="_blank" rel="noreferrer">Song Quiz</a>
                             </h2>
                             <p className="project-description mb-3">
-                                Are you a big music lover? Try your hand at my interactive music trivia game! Listen to clips of famous songs, and try guess the correct title and artist. You have six rounds to rack up as many points as you can. Have fun playing (but beware, it's addictive)!
+                                Are you a big music lover? Try your hand at my interactive music trivia game! Listen to clips of famous songs, and try to guess the correct title and artist. You have six rounds to rack up as many points as you can. Have fun playing (but beware, it's addictive)!
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
                                 <a href="https://pages.git.generalassemb.ly/dylanaldrich/dylans-song-quiz/" target="_blank" rel="noreferrer" className="btn btn-light">View</a>
