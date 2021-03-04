@@ -94,8 +94,9 @@ i {
 }
 
 .project-img {
-  height: 330px;
-  width: auto;
+  height: 27vw;
+  max-height: 330px;
+  min-height: 235px;
   transition: linear .2s;
 }
 
@@ -105,6 +106,7 @@ i {
 
 .project-title{
   font-size: 38px;
+  line-height: 1;
 }
 
 .project-description {
@@ -112,11 +114,11 @@ i {
 }
 
 .project-link {
-  color: whitesmoke;
+  color: var(--main-yellow);
 }
 
 .project-link:hover {
-  color: var(--main-yellow);
+  color: whitesmoke;
   text-decoration: none;
 }
 
@@ -157,6 +159,42 @@ i {
   text-shadow: var(--text-shadow-setting);
   font-size: 17px;
   padding-bottom: 5px;
+}
+
+@media only screen and (max-width: 991px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 25px;
+    margin-left: 25px;
+    max-width: 100vw;
+  }
+
+  .skills-grid {
+    max-width: 70%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .project-description, .lead, .btn, #email {
+    font-size: 15px;
+  }
+
+  #envelope {
+    font-size: 20px;
+  }
+
+  .project-tech-logos i {
+    font-size: 38px;
+  }
+
+  .project-title {
+    font-size: 34px;
+  }
+
+  p.mb-2 {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 768px) {

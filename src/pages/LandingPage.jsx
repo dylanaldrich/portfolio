@@ -176,7 +176,7 @@ const LandingPage = () => {
             <section id="skills">
                 <h2 className="font-weight-bold my-4 text-white section-title">SKILLS</h2>
                 <div className="d-flex flex-column align-items-center text-white mb-1 py-3" id="skills-section">
-                    <div className="skills-grid d-flex flex-wrap justify-content-around">
+                    <div className="skills-grid d-flex flex-wrap justify-content-center">
                     {generateSkills(skillsLogos)}
                     </div>
                     <div className="pt-2 d-flex align-items-center">
