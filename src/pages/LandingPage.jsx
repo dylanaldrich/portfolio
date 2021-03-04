@@ -13,7 +13,7 @@ const LandingPage = () => {
     }
 
     return (
-        <div>
+        <div className="page-container">
             {/* Header */}
             <header className="jumbotron d-flex align-items-end my-0">
                 <div className="header-text mx-auto text-white mt-3">
@@ -213,7 +213,7 @@ const LandingPage = () => {
             {/* Footer */}
             <footer className="footer mt-auto">
                 <div className="text-left ml-2">
-                    <span className="text-white font-weight-bold">&copy; {(new Date().getFullYear())} Dylan Aldrich</span>
+                    <span className="text-white font-weight-bold" id="copyright">&copy; {(new Date().getFullYear())} Dylan Aldrich</span>
                 </div>
             </footer>
         </div>

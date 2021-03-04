@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 :root {
-  --text-shadow-setting: 6px 3px 12px #000000;
+  --text-shadow-setting: 2px 2px 10px #000000;
   --main-yellow: goldenrod;
   --main-blue: rgb(54,127,190);
 }
@@ -23,6 +23,10 @@ body {
 .App {
   text-align: center;
   font-family: 'Raleway', sans-serif;
+}
+
+.page-container {
+  background-color: rgba(0,0,0,0.17);
 }
 
 .jumbotron {
@@ -147,6 +151,12 @@ i {
 .pride {
   font-size: 25px;
   line-height: 1;
+}
+
+#copyright {
+  text-shadow: var(--text-shadow-setting);
+  font-size: 17px;
+  padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 768px) {
