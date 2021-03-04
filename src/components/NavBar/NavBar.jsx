@@ -12,12 +12,12 @@ class NavBar extends Component {
     render () {
         return (
             <nav className="navbar navbar-expand-lg fixed-top">
-                <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler collapsed shadow" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <i className="fas fa-bars"></i>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav nav-items mx-auto" id="hamburger">
-                        <li className="nav-item mx-2">
+                        <li className="nav-item">
                             <Link 
                                 to="about"
                                 className="nav-link" 
@@ -33,7 +33,7 @@ class NavBar extends Component {
                                 <span className="sr-only">(current)</span>
                             </Link>
                         </li>
-                        <li className="nav-item mx-2">
+                        <li className="nav-item">
                             <Link 
                                 to="projects"
                                 className="nav-link" 
@@ -48,7 +48,7 @@ class NavBar extends Component {
                                 <span>Projects</span>
                             </Link>
                         </li>
-                        <li className="nav-item mx-2">
+                        <li className="nav-item">
                             <Link
                                 to="skills"
                                 className="nav-link" 
@@ -63,7 +63,7 @@ class NavBar extends Component {
                                 <span>Skills</span>
                             </Link>
                         </li>
-                        <li className="nav-item mx-2">
+                        <li className="nav-item">
                             <a 
                                 className="nav-link" 
                                 href={resume} 

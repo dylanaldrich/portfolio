@@ -1,10 +1,14 @@
+:root {
+    --main-blue: rgb(54, 127, 190);
+}
+
 nav {
     padding: 0;
     background-color: whitesmoke;
 }
 
 .nav-link, li {
-    color:rgb(54, 127, 190);
+    color:var(--main-blue);
     letter-spacing: 2px;
     font-size: 23px;
     font-weight: bold;
@@ -29,10 +33,17 @@ nav {
 
     .navbar-nav {
         display: block;
+        box-shadow: 
+            3px 2.8px 2.2px rgb(0 0 0 / 3%), 
+            5px 4.7px 5.3px rgb(0 0 0 / 5%), 
+            7px 7.5px 10px rgb(0 0 0 / 6%), 
+            8px 12.3px 17.9px rgb(0 0 0 / 7%), 
+            9px 27.8px 33.4px rgb(0 0 0 / 9%), 
+            10px 50px 50px rgb(0 0 0 / 12%);
     }
     
     .navbar-toggler {
-        background-color: rgb(54, 127, 190);
+        background-color: var(--main-blue);
         color: white;
         top: 10px;
         left: 10px;
@@ -42,6 +53,26 @@ nav {
 
     .navbar-collapse {
         justify-items: left;
+    }
+
+    .nav-link {
+        margin: 0 10px 0 10px;
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav-link span {
+        line-height: 1;
+        color: var(--main-blue);
+    }
+
+    .nav-link span:hover {
+        color: var(--main-blue);
+    }
+
+    .nav-item:hover {
+        background-color: goldenrod;
+        cursor: pointer;
     }
 
     button i {
