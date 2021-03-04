@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
+:root {
+  --text-shadow-setting: 6px 3px 12px #000000;
+  --main-yellow: goldenrod;
+  --main-blue: rgb(54,127,190);
+}
+
 *{
   margin: 0 auto;
   padding: 0;
@@ -22,7 +28,7 @@ body {
 .jumbotron {
   background-color: transparent;
   height: 450px;
-  text-shadow: 1px 1px 4px #000000;
+  text-shadow: var(--text-shadow-setting);
   border-radius: 0;
 }
 
@@ -32,7 +38,7 @@ body {
 }
 
 .section-title {
-  text-shadow: 1px 1px 4px #000000;
+  text-shadow: var(--text-shadow-setting);
   letter-spacing: 2px;
   font-size: 35px;
 }
@@ -44,7 +50,7 @@ img {
 
 #about {
   min-height: 300px;
-  background-color: rgb(54,127,190);
+  background-color: var(--main-blue);
 }
 
 .project-container {
@@ -106,19 +112,19 @@ i {
 }
 
 .project-link:hover {
-  color: goldenrod;
+  color: var(--main-yellow);
   text-decoration: none;
 }
 
 .btn {
-  color: rgb(54,127,190);
+  color: var(--main-blue);
   margin-right: 10px;
   font-weight: bold;
   border-radius: 0;
 }
 
 .btn:hover {
-  color: goldenrod;
+  color: var(--main-yellow);
 }
 
 #envelope {
