@@ -53,7 +53,7 @@ const LandingPage = () => {
                 <div className="project-container d-flex align-items-center text-white mb-5" id="agotb-section">
                     <div className="project container d-flex align-items-center">
                         <a href="https://www.terribleblooms.net" target="_blank" rel="noreferrer">
-                            <img className="shadow project-img" src="https://i.ibb.co/gwgzNTZ/terribleblooms-ogphoto.png" alt="A Garden of Terrible Blooms Homepage" />
+                            <img className="shadow project-img" src="https://i.ibb.co/pZf2jjP/terribleblooms-home.png" alt="A Garden of Terrible Blooms Homepage" />
                         </a>
                         <div className="text-left my-3">
                             <h2 className="font-weight-bold project-title">
