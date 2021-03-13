@@ -61,6 +61,10 @@ img {
   min-height: 380px;
 }
 
+#agotb-section {
+  background-color: #0E86A8;
+}
+
 #foodbook-section {
   background-color: #75A2CA;
 }

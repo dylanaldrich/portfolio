@@ -49,6 +49,37 @@ const LandingPage = () => {
             <section id="projects">
                 <h2 className="font-weight-bold my-4 text-white section-title">PROJECTS</h2>
 
+                {/* AGOTB Section */}
+                <div className="project-container d-flex align-items-center text-white mb-5" id="agotb-section">
+                    <div className="project container d-flex align-items-center">
+                        <a href="https://www.terribleblooms.net" target="_blank" rel="noreferrer">
+                            <img className="shadow project-img" src="https://i.ibb.co/gwgzNTZ/terribleblooms-ogphoto.png" alt="A Garden of Terrible Blooms Homepage" />
+                        </a>
+                        <div className="text-left my-3">
+                            <h2 className="font-weight-bold project-title">
+                                <a href="https://www.terribleblooms.net" className="project-link" target="_blank" rel="noreferrer">A Garden of Terrible Blooms</a>
+                            </h2>
+                            <p className="project-description mb-3">
+                                A fun client project designed and built as a home for an exciting new theater podcast. A Garden of Terrible Blooms is the brainchild of LA-based playwright, Sharon Yablon. In the midst of a global pandemic, she decided to convert her plays into a podcast, so they can be enjoyed from anywhere—no theater required! Her short plays tell stories of the weird and surreal, set in Los Angeles. The podcast is available to stream or download on all major podcast apps. Subscribe now!
+                            </p>
+                            <p className="mb-3 h5 font-weight-bold">
+                                <a href="https://www.terribleblooms.net" target="_blank" rel="noreferrer" className="btn btn-light">View</a>
+                                <a href="https://github.com/dylanaldrich/terribleblooms" target="_blank" rel="noreferrer" className="btn btn-light">GitHub</a>
+                            </p>
+                            <p className="mb-2 font-weight-bold">Technologies used:</p>
+                            <div className="logo-container d-flex justify-content-between project-tech-logos">
+                                <i className="devicon-python-plain"></i>
+                                <i className="devicon-django-plain"></i>
+                                <i className="devicon-postgresql-plain"></i>
+                                <i className="devicon-jquery-plain"></i>
+                                <i className="devicon-heroku-original"></i>
+                                <i className="devicon-html5-plain-wordmark"></i>
+                                <i className="devicon-css3-plain-wordmark"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                 {/* foodbook Section */}
                 <div className="project-container d-flex align-items-center text-white mb-5" id="foodbook-section">
                     <div className="project container d-flex align-items-center">
@@ -73,9 +104,10 @@ const LandingPage = () => {
                                 <i className="devicon-express-original"></i>
                                 <i className="devicon-nodejs-plain"></i>
                                 <i className="devicon-javascript-plain"></i>
+                                <i className="devicon-heroku-original"></i>
+                                <i className="devicon-bootstrap-plain"></i>
                                 <i className="devicon-html5-plain-wordmark"></i>
                                 <i className="devicon-css3-plain-wordmark"></i>
-                                <i className="devicon-bootstrap-plain"></i>
                             </div>
                         </div>
                     </div>
@@ -103,9 +135,10 @@ const LandingPage = () => {
                                 <i className="devicon-python-plain"></i>
                                 <i className="devicon-django-plain"></i>
                                 <i className="devicon-postgresql-plain"></i>
+                                <i className="devicon-bootstrap-plain"></i>
+                                <i className="devicon-heroku-original"></i>
                                 <i className="devicon-html5-plain-wordmark"></i>
                                 <i className="devicon-css3-plain-wordmark"></i>
-                                <i className="devicon-bootstrap-plain"></i>
                             </div>
                         </div>
                     </div>
@@ -135,9 +168,10 @@ const LandingPage = () => {
                                 <i className="devicon-javascript-plain"></i>
                                 <i className="devicon-nodejs-plain"></i>
                                 <i className="devicon-jquery-plain"></i>
+                                <i className="devicon-bootstrap-plain"></i>
+                                <i className="devicon-heroku-original"></i>
                                 <i className="devicon-html5-plain-wordmark"></i>
                                 <i className="devicon-css3-plain-wordmark"></i>
-                                <i className="devicon-bootstrap-plain"></i>
                             </div>
                         </div>
                     </div>
