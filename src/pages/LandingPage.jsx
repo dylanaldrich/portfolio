@@ -60,7 +60,7 @@ const LandingPage = () => {
                                 <a href="https://www.terribleblooms.net" className="project-link" target="_blank" rel="noreferrer">A Garden of Terrible Blooms</a>
                             </h2>
                             <p className="project-description mb-3">
-                                A fun client project designed and built as a home for an exciting new theater podcast. A Garden of Terrible Blooms is the brainchild of LA-based playwright, Sharon Yablon. In the midst of a global pandemic, she decided to convert her plays into a podcast, so they can be enjoyed from anywhere—no theater required! Her short plays tell stories of the weird and surreal, set in Los Angeles. The podcast is available to stream or download on all major podcast apps. Subscribe now!
+                                A fun client project designed and built as a home for an exciting new theater podcast. A Garden of Terrible Blooms is the brainchild of LA-based playwright, Sharon Yablon. In the midst of a global pandemic, she decided to convert her plays into a podcast, so they can be enjoyed from anywhere—no theater required! Her short plays tell stories of the weird and surreal, set in Los Angeles.
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
                                 <a href="https://www.terribleblooms.net" target="_blank" rel="noreferrer" className="btn btn-light">View</a>
