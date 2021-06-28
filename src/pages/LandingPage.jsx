@@ -68,13 +68,13 @@ const LandingPage = () => {
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
-                                <i className="devicon-python-plain"></i>
-                                <i className="devicon-django-plain"></i>
-                                <i className="devicon-postgresql-plain"></i>
-                                <i className="devicon-jquery-plain"></i>
-                                <i className="devicon-heroku-original"></i>
-                                <i className="devicon-html5-plain-wordmark"></i>
-                                <i className="devicon-css3-plain-wordmark"></i>
+                                <i title="Python" className="devicon-python-plain"></i>
+                                <i title="Django" className="devicon-django-plain"></i>
+                                <i title="PostgreSQL" className="devicon-postgresql-plain"></i>
+                                <i title="jQuery" className="devicon-jquery-plain"></i>
+                                <i title="Heroku" className="devicon-heroku-original"></i>
+                                <i title="HTML" className="devicon-html5-plain-wordmark"></i>
+                                <i title="CSS" className="devicon-css3-plain-wordmark"></i>
                             </div>
                         </div>
                     </div>
@@ -99,15 +99,15 @@ const LandingPage = () => {
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
-                                <i className="devicon-react-original"></i>
-                                <i className="devicon-mongodb-plain"></i>
-                                <i className="devicon-express-original"></i>
-                                <i className="devicon-nodejs-plain"></i>
-                                <i className="devicon-javascript-plain"></i>
-                                <i className="devicon-heroku-original"></i>
-                                <i className="devicon-bootstrap-plain"></i>
-                                <i className="devicon-html5-plain-wordmark"></i>
-                                <i className="devicon-css3-plain-wordmark"></i>
+                                <i title="JavaScript" className="devicon-javascript-plain"></i>
+                                <i title="React" className="devicon-react-original"></i>
+                                <i title="Node.js" className="devicon-nodejs-plain"></i>
+                                <i title="Express" className="devicon-express-original"></i>
+                                <i title="MongoDB" className="devicon-mongodb-plain"></i>
+                                <i title="Heroku" className="devicon-heroku-original"></i>
+                                <i title="Bootstrap" className="devicon-bootstrap-plain"></i>
+                                <i title="HTML" className="devicon-html5-plain-wordmark"></i>
+                                <i title="CSS" className="devicon-css3-plain-wordmark"></i>
                             </div>
                         </div>
                     </div>
@@ -132,13 +132,13 @@ const LandingPage = () => {
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
-                                <i className="devicon-python-plain"></i>
-                                <i className="devicon-django-plain"></i>
-                                <i className="devicon-postgresql-plain"></i>
-                                <i className="devicon-bootstrap-plain"></i>
-                                <i className="devicon-heroku-original"></i>
-                                <i className="devicon-html5-plain-wordmark"></i>
-                                <i className="devicon-css3-plain-wordmark"></i>
+                                <i title="Python" className="devicon-python-plain"></i>
+                                <i title="Django" className="devicon-django-plain"></i>
+                                <i title="PostgreSQL" className="devicon-postgresql-plain"></i>
+                                <i title="Bootstrap" className="devicon-bootstrap-plain"></i>
+                                <i title="Heroku" className="devicon-heroku-original"></i>
+                                <i title="HTML" className="devicon-html5-plain-wordmark"></i>
+                                <i title="CSS" className="devicon-css3-plain-wordmark"></i>
                             </div>
                         </div>
                     </div>
@@ -163,15 +163,15 @@ const LandingPage = () => {
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
-                                <i className="devicon-mongodb-plain"></i>
-                                <i className="devicon-express-original"></i>
-                                <i className="devicon-javascript-plain"></i>
-                                <i className="devicon-nodejs-plain"></i>
-                                <i className="devicon-jquery-plain"></i>
-                                <i className="devicon-bootstrap-plain"></i>
-                                <i className="devicon-heroku-original"></i>
-                                <i className="devicon-html5-plain-wordmark"></i>
-                                <i className="devicon-css3-plain-wordmark"></i>
+                                <i title="JavaScript" className="devicon-javascript-plain"></i>
+                                <i title="Node.js" className="devicon-nodejs-plain"></i>
+                                <i title="Express" className="devicon-express-original"></i>
+                                <i title="MongoDB" className="devicon-mongodb-plain"></i>
+                                <i title="jQuery" className="devicon-jquery-plain"></i>
+                                <i title="Bootstrap" className="devicon-bootstrap-plain"></i>
+                                <i title="Heroku" className="devicon-heroku-original"></i>
+                                <i title="HTML" className="devicon-html5-plain-wordmark"></i>
+                                <i title="CSS" className="devicon-css3-plain-wordmark"></i>
                             </div>
                         </div>
                     </div>
@@ -196,10 +196,10 @@ const LandingPage = () => {
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
                             <div className="logo-container d-flex justify-content-between project-tech-logos">
-                                <i className="devicon-javascript-plain"></i>
-                                <i className="devicon-jquery-plain"></i>
-                                <i className="devicon-html5-plain-wordmark"></i>
-                                <i className="devicon-css3-plain-wordmark"></i>
+                                <i title="JavaScript" className="devicon-javascript-plain"></i>
+                                <i title="jQuery" className="devicon-jquery-plain"></i>
+                                <i title="HTML" className="devicon-html5-plain-wordmark"></i>
+                                <i title="CSS" className="devicon-css3-plain-wordmark"></i>
                             </div>
                         </div>
                     </div>
