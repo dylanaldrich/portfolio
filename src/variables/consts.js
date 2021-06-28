@@ -1,7 +1,9 @@
 export const skillsLogos = [
     "devicon-javascript-plain",
+    "devicon-typescript-plain",
     "devicon-python-plain-wordmark",
     "devicon-jquery-plain-wordmark",
+    "devicon-angularjs-plain-wordmark",
     "devicon-react-original-wordmark",
     "devicon-nodejs-plain-wordmark",
     "devicon-django-plain",
@@ -12,6 +14,7 @@ export const skillsLogos = [
     "devicon-git-plain-wordmark",
     "devicon-github-plain-wordmark",
     "devicon-heroku-original-wordmark",
+    "devicon-amazonwebservices-plain-wordmark",
     "devicon-html5-plain-wordmark",
     "devicon-css3-plain-wordmark",
 ];
