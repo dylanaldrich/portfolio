@@ -30,7 +30,7 @@ const LandingPage = () => {
                         <div>
                             <h2 className="text-uppercase font-weight-bold">About Me</h2>
                             <p className="lead">
-                                I’m a well-traveled, multilingual software developer with a background in web development, education and the music industry. As a creative problem solver, I am passionate about using technology to bring people closer together, and closer to achieving their dreams. Based in Los Angeles, CA. <span className="pride">&#127987;&#65039;&#8205;&#127752;</span>
+                                I'm a well-traveled, multilingual software developer with a background in web development, education and the music industry. As a creative problem solver, I am passionate about using technology to bring people closer together, and closer to achieving their dreams. Based in Los Angeles, CA. <span className="pride">&#127987;&#65039;&#8205;&#127752;</span>
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
                                 <a href="https://www.linkedin.com/in/dylanaldrich/" target="_blank" rel="noreferrer" className="btn btn-light">LinkedIn</a>
@@ -116,18 +116,13 @@ const LandingPage = () => {
                 {/* Wayfarer Section */}
                 <div className="project-container d-flex align-items-center text-white mb-5" id="wayfarer-section">
                     <div className="project container d-flex align-items-center">
-                        <a href="https://wayfarer-bld.herokuapp.com/" target="_blank" rel="noreferrer">
-                            <img className="shadow project-img" src="https://i.ibb.co/YhYyhkP/wayfarer-home.png" alt="wayfarer" />
-                        </a>
+                        <img className="shadow project-img" src="https://i.ibb.co/YhYyhkP/wayfarer-home.png" alt="wayfarer" />
                         <div className="text-left my-3">
-                            <h2 className="font-weight-bold project-title">
-                                <a href="https://wayfarer-bld.herokuapp.com/" className="project-link" target="_blank" rel="noreferrer">Wayfarer</a>
-                            </h2>
+                            <h2 className="font-weight-bold project-title">Wayfarer</h2>
                             <p className="project-description mb-3">
                                 Put on your traveling shoes and check out this colorful travel blog, where you can share travel tips and stories about your favorite places around the globe! You can also interact with other users, read and comment on their posts.
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
-                                <a href="https://wayfarer-bld.herokuapp.com/" target="_blank" rel="noreferrer" className="btn btn-light">View</a>
                                 <a href="https://github.com/dylanaldrich/wayfarer_travel_app" target="_blank" rel="noreferrer" className="btn btn-light">GitHub</a>
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
@@ -147,18 +142,13 @@ const LandingPage = () => {
                 {/* Toolodex Section */}
                 <div className="project-container d-flex align-items-center text-white mb-5" id="toolodex-section">
                     <div className="project container d-flex align-items-center">
-                        <a href="https://tool-odex.herokuapp.com/login" target="_blank" rel="noreferrer">
-                            <img className="shadow project-img" src="https://i.ibb.co/61zWSxv/toolodex-home.png" alt="toolodex" />
-                        </a>
+                        <img className="shadow project-img" src="https://i.ibb.co/61zWSxv/toolodex-home.png" alt="toolodex" />
                         <div className="text-left my-3">
-                            <h2 className="font-weight-bold project-title">
-                                <a href="https://tool-odex.herokuapp.com/login" className="project-link" target="_blank" rel="noreferrer">Toolodex</a>
-                            </h2>
+                            <h2 className="font-weight-bold project-title">Toolodex</h2>
                             <p className="project-description mb-3">
                                 A retro-themed productivity application that helps you to save and keep track of your favorite online tools, resources and documentation. Think of it like your browser's bookmarks feature, but with a lot of added functionality! Perfect for developers, teachers, or anyone who likes to keep their go-to sites organized.
                             </p>
                             <p className="mb-3 h5 font-weight-bold">
-                                <a href="https://tool-odex.herokuapp.com/login" target="_blank" rel="noreferrer" className="btn btn-light">View</a>
                                 <a href="https://github.com/dylanaldrich/toolodex" target="_blank" rel="noreferrer" className="btn btn-light">GitHub</a>
                             </p>
                             <p className="mb-2 font-weight-bold">Technologies used:</p>
