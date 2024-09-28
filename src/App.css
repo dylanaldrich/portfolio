@@ -101,10 +101,13 @@ i {
   height: 27vw;
   max-height: 330px;
   min-height: 235px;
+}
+
+.img-grow {
   transition: linear .2s;
 }
 
-.project-img:hover {
+.img-grow:hover {
   transform: scale(1.05);
 }
 
