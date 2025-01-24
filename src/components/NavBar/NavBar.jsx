@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from "react-scroll";
 
-import resume from "../../assets/dylanaldrich_resume.pdf";
 import './NavBar.css';
 
 class NavBar extends Component {
@@ -18,9 +17,9 @@ class NavBar extends Component {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav nav-items mx-auto" id="hamburger">
                         <li className="nav-item">
-                            <Link 
+                            <Link
                                 to="about"
-                                className="nav-link" 
+                                className="nav-link"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -34,9 +33,9 @@ class NavBar extends Component {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link 
+                            <Link
                                 to="projects"
-                                className="nav-link" 
+                                className="nav-link"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -51,7 +50,7 @@ class NavBar extends Component {
                         <li className="nav-item">
                             <Link
                                 to="skills"
-                                className="nav-link" 
+                                className="nav-link"
                                 spy={true}
                                 smooth={true}
                                 offset={-70}
@@ -64,15 +63,15 @@ class NavBar extends Component {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a 
-                                className="nav-link" 
-                                href={resume} 
-                                target="_blank" 
-                                rel="noreferrer"
+                            <a
+                                className="nav-link"
+                                href="https://docs.google.com/document/d/1W9RVOyekcG4YEWN-rWSBqAigB2nI9MC6PuXCKKAPNjw/export?format=pdf"
                                 onClick={() => {
                                     document.getElementById("navbarSupportedContent").classList.toggle("show");
                                 }}
-                                ><span>Resume</span></a>
+                            >
+                                <span>Resume</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
